@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+}
+body{
+background: rgba(248,87,58,1);
+
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,87,58,1)), color-stop(100%, rgba(242,123,105,0.85)));
+
+
+}
+#form{
+	background-color:#F33;
+	width:300px;
+	height:auto;
+	float:inherit;
+	border-radius:30px;
+	border: 13px outset #F06;
+	box-shadow:#666;
+position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	-webkit-box-shadow: 0 .1em 1em black;
+-moz-box-shadow: 0 .1em 1em black;
+-o-box-shadow: 0 .1em 1em black;
+}
+#label{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#3F0;
+}
+#campo{
+	height:auto;
+	width:170px;
+	border: 1px solid #DCDCDC; 
+}
+#error{
+	background-color:#000;
+	color:#F00;
+}
+#image{
+	
+}
+#btn:hover{
+	background-color:#000;
+	color:#F00;
+}
+#us{
+width:165px;
+}
+#ps{
+	width:165px;
+}
+#banner{
+	width:100%;
+	height:75px;
+	background-color:#FFF;
+color:	#00FF00;
+}
+#login{
+	background-color:#0C3;
+	color:#F00;
+	display:table-cell;
+	float:right;
+	width:15%;
+	height:75px;
+	vertical-align:central;
+	text-align:center;
+}
+#login:hover{
+	background-color:#600;
+	color:#C9C;
+	display:table-cell;
+	float:right;
+	width:15%;
+	text-align:center;
+}
+a:hover{
+	color:#C06;
+}
+div img{
+height:78px;	
+display:table-cell;
+float:left;
+border-bottom:0;
+}
